@@ -14,7 +14,5 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3.5.0
-        with:
-          fetch-depth: 2
-      - run: git checkout HEAD^
+      - name: Qualquer coisa
+        run: echo "Olá"
