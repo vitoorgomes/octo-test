@@ -1,4 +1,4 @@
-name: backend-ci
+name: octo-ci
 
 on:
   pull_request:
